@@ -1,0 +1,23 @@
+.container_content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .content_cover{
+        img{
+            width: 500px;
+            min-width: 500px;
+            height: 300px;
+        }
+    }
+    .content_title{
+        border-bottom: 1px solid #fff;
+    }
+    .content_description{
+        margin-top: 10px;
+        p{
+            color: rgb(147, 146, 146);
+        }
+    }
+}

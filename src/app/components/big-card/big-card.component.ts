@@ -14,4 +14,6 @@ export class BigCardComponent {
   cardTitle:string = "";
   @Input()
   cardDescription = "";
+
+  @Input() id:string = "0";
 }
