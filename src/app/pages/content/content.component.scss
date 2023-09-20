@@ -16,8 +16,17 @@
     }
     .content_description{
         margin-top: 10px;
+        text-align: center;
+        width: 40rem;
         p{
             color: rgb(147, 146, 146);
         }
+    }
+    .btnBack{
+        border: none;
+        background-color: #fff;
+        color: #000;
+        padding: 1rem 2rem;
+        margin-top: 1rem;
     }
 }

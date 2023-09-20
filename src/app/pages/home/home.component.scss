@@ -1,6 +1,14 @@
 
 .container_articles{
-    margin-top: 1.9rem;
     display: flex;
-    justify-content: center ;   
+    flex-direction: column;
+    align-items: center;
+
+    .articles_main{
+        transform: translateY(-100px);
+    }
+    .articles_others{
+        display: flex;
+        gap: 2rem;
+    }
 }

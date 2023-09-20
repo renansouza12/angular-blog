@@ -1,28 +1,26 @@
 .container_small_card{
-    width: 700px;
-    gap: 1rem;
-    padding:   0 0 0.5rem 0;
-    border-bottom: 1px solid #fff;
-
+    transform: translateY(-50px);
+    transition: 0.5s ease-in-out;
+    width: 25rem;
+    height: 25rem;  
+    background-color: #2a2929; 
+    border-radius: 0.5rem;
+    opacity: 0.8;  
+    cursor: pointer;
     .container_small_card_content{
-        display: flex;
-        justify-content: space-between;
-
-        .small_card_photo{
-
-            img{
-                height: 200px;
-                width: 100%;
-                min-width: 200px;
-                object-fit: contain;
+            .small_card_photo{
+                img{
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 1rem;
+                }
             }
-          
-        }
-        .small_card_title{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+            .small_card_title{
+                text-align: center;
+            }
     }
-    
+}
+.container_small_card:hover{
+    scale: 1.1;
+    opacity: 1;  
 }
